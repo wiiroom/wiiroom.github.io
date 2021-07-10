@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/**
+ *	Wiiの間 Styles - top -
+ */
+
+
+	/**
+	 *  CONTENTS
+	 */
+		body#top #main_container { margin: 0; }
+		/* MAIN */
+		#top_main_wrapper { position: relative; height: 360px; }
+		
+		#top_movie {}
+		#top_movie a { display: block; position: relative; width: 127px; height: 89px; overflow: hidden; border: solid 0px white; }
+		#top_movie a:hover { border: solid 0px gray; }
+		#top_movie a img { position: absolute; top: 0; left: 0; }
+		#top_movie a:hover img { top: -89px; }
+		
+		#top_logo { position: absolute; top: 45px; left: 479px; }
+		#top_catch { position: absolute; top: 125px; left: 472px; }
+		#top_movie { position: absolute; top: 173px; left: 526px; }
+		#top_movie div { margin: 0 0 3px; font-size: 0; }
+		
+		#top_movie_text { display: block; position: absolute; top: 275px; left: 480px; width: 233px; height: 56px; }
+		#top_movie_text a { display: block; position: relative; width: 100%; height: 100%; overflow: hidden; border: solid 0px white; }
+		#top_movie_text a:hover { border: solid 0px gray; }
+		#top_movie_text a img { position: absolute; left: 0; }
+		#top_movie_text a:hover img { top: -56px; }
+		
+		#main_visual { position: absolute; top: 29px; left: 32px; }
+		.top_main_visual { position: absolute; top: 0; left: 0; }
+		
+		/* TOPICS */
+		#top_topics_container { position: absolute; top: 262px; left: 4px; width: 760px; height: 30px; }
+		#top_topics_box { position: relative; }
+		#top_topics { position: relative; margin: 10px 0 0 3px; }
+		#topics_link { position: absolute; top: 11px; right: 20px; line-height: 1em; }
+		#top_topics li { line-height: 21px; }
+		#top_topics_link { padding: 0 5px 0 17px; background: url(/web/20120403061149im_/http://www.wiinoma.co.jp/top/images/icn-arrow.gif) left center no-repeat; color: #fff; }
+		#btn_rss {  }
+		html>/**/body #top_topics_link { padding: 0 5px 0 15px; background-position: left center; }
+		#top_topics_bottom { font-size: 10px; margin: 0; padding: 0; height: 10px }
+
+#topics_box {
+border-left: 2px solid #34bfea; border-right: 2px solid #34bfea;
+background: #fff;
+width: 758px;
+font-size: 30px;
+height: 40px;
+margin: 0; 
+padding: 0;
+overflow: hidden;
+}
+
+#topics_box .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+left: 0px;
+top: 8px;
+width: 758px;
+overflow: hidden;
+}
+
+ul#ticker {
+position: relative;
+left: 760px;
+margin: 0;
+padding: 0;
+}
+ul#ticker li {
+float: left;
+margin: 0;
+padding: 3px 0 0 0;
+background: #fff;
+font-size: 30px;
+font-weight: bold;
+line-height: 1em;
+}
+ul#ticker a {
+white-space: nowrap;
+padding: 0;
+margin: 0 50px 0 0;
+} 
+ul#ticker span {
+margin: 0 10px 0 0;
+}
+
+		
+		
+		
+		
+		/* CONTENTS NAVIGATION */
+		#top_contents_nav { padding-top: 10px; margin: 12px auto 0; width: 762px; overflow: hidden; }
+		#top_contents_nav ul { margin: 0 -18px 0 0; }
+		#top_contents_nav li { float: left; margin: 0 18px 0 0; width: 177px; height: 106px; }
+		#top_contents_nav li a { display: block; position: relative; width: 100%; height: 100%; overflow: hidden; border: solid 0px white; }
+		#top_contents_nav li a:hover { border: solid 0px gray; }
+		#top_contents_nav li img { position: absolute; left: 0; }
+		#top_contents_nav li a:hover img { top: -106px; }
+		/* BUTTONS */
+		
+		#top_main_contents #main-over {
+			margin-left: 3px;
+			display: none;
+			width: 762px;
+			height: 261px;
+			background: url(/web/20120403061149im_/http://www.wiinoma.co.jp/top/images/bg-main-box.png) no-repeat 0 0;
+			cursor: pointer;
+			position: relative;
+			z-index: 999;
+		}
+		
+		#top_main_contents #balloon {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 10px;
+			z-index: 998;
+			width: 210px;
+			height: 131px;
+			background: url(/web/20120403061149im_/http://www.wiinoma.co.jp/top/images/baloon.png) no-repeat 0 0;
+			cursor: pointer;
+		}
+		
+		
+		* html #top_main_contents #balloon {
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/top/images/baloon.png',sizingMethod='scale');
+			background:none;
+		}
+		
+#noflash {
+	position: relative;
+	height: 261px;
+}
+
+#noflash img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+#noflash p {
+	position: relative;
+	z-index: 20;
+	margin-left: 460px;
+	margin-right: 20px;
+	padding-top: 10px;
+	
+}
+/*
+     FILE ARCHIVED ON 06:11:49 Apr 03, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:36:14 Jul 10, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 239.023
+  exclusion.robots: 144.665
+  exclusion.robots.policy: 144.659
+  xauthn.identify: 89.197
+  xauthn.chkprivs: 55.297
+  RedisCDXSource: 1.726
+  esindex: 0.007
+  LoadShardBlock: 77.831 (3)
+  PetaboxLoader3.datanode: 76.981 (4)
+  CDXLines.iter: 12.936 (3)
+  load_resource: 71.425
+  PetaboxLoader3.resolve: 25.822
+*/
